@@ -1,0 +1,18 @@
+{
+  "name": "ava-0_8-with-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "James Talmage <james@talmage.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.8.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.3.21",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
