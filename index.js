@@ -1,3 +1,4 @@
-export default function(a, b) {
-  return a + b;
-}
+import add from './lib/add';
+import subtract from './lib/subtract';
+
+export default {add, subtract};

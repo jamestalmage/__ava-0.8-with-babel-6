@@ -1,10 +1,5 @@
 import test from 'ava';
+import calc from './';
 
-require('babel-core/register')({
-  presets: ['es2015'],
-  plugins: ['transform-es2015-modules-commonjs']
-});
-
-const sum = require('./')['default'];
-
-test(t => t.is(sum(3, 4), 7));
+test(async t => t.is(await calc.add(3, 4), 7));
+test(async t => t.is(await calc.subtract(3, 4), -1));
